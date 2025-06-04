@@ -85,6 +85,7 @@ extensions = [
     'sphinx_multiversion',
     'sphinx_tabs.tabs',
     'sphinx_rtd_theme',
+    'sphinx_rtd_dark_mode',
     'sphinx_sitemap_ros',
     'sphinxcontrib.mermaid',
 ]
@@ -133,6 +134,7 @@ templates_path = [
     "source/_templates",
 ]
 
+default_dark_mode = True,
 # smv_tag_whitelist = None
 
 smv_branch_whitelist = r'^(rolling|kilted|jazzy|iron|humble|galactic|foxy|eloquent|dashing|crystal)$'
