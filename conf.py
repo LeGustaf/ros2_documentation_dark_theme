@@ -35,7 +35,7 @@ sys.path.append(os.path.abspath('plugins'))
 # You can specify multiple suffix as a list of string:
 #
 # The master toctree document.
-master_doc = 'index'
+master_doc = 'source/index'
 
 # The default role
 default_role = 'any'
@@ -115,7 +115,7 @@ copybutton_exclude = '.linenos, .gp, .go'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_rtd_dark_mode'
 html_theme_options = {
     'analytics_id': 'G-EVD5Z6G6NH',
     'collapse_navigation': False,
